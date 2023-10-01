@@ -1,0 +1,62 @@
+[
+    {
+        "value": "QShL0"
+    },
+    {
+        "value": "/DataService.GetAlternativeTranslations"
+    },
+    {
+        "value": "AVdN8"
+    },
+    {
+        "value": "/DataService.GetAutocompleteSuggestions"
+    },
+    {
+        "value": "rPsWke"
+    },
+    {
+        "value": "/DataService.GetCards"
+    },
+    {
+        "value": "LBEnTe"
+    },
+    {
+        "value": "/DataService.GetDocumentTranslation"
+    },
+    {
+        "value": "WqWDPb"
+    },
+    {
+        "value": "/DataService.GetImageTranslation"
+    },
+    {
+        "value": "MKPkhb"
+    },
+    {
+        "value": "/DataService.GetSimpleTextTranslation"
+    },
+    {
+        "value": "MkEWBc"
+    },
+    {
+        "value": "/DataService.GetTranslation"
+    },
+    {
+        "value": "BYzD3b"
+    },
+    {
+        "value": "/DataService.GetTransliteration"
+    },
+    {
+        "value": "jQ1olc"
+    },
+    {
+        "value": "/DataService.GetTts"
+    },
+    {
+        "value": "ryqJHd"
+    },
+    {
+        "value": "/TranslateCommunityService.GetBetaTranslation"
+    }
+]

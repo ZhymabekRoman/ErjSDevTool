@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "method": "Debugger.stepInto",
+        "params": {
+            "breakOnAsyncCall": false,
+            "skipList": []
+        }
+    },
+    {
+        "id": 1,
+        "result": {}
+    },
+    {
+        "id": 2,
+        "method": "Overlay.setPausedInDebuggerMessage",
+        "params": {
+            "message": "Paused in debugger"
+        }
+    },
+    {
+        "id": 2,
+        "result": {}
+    }
+]
