@@ -31640,7 +31640,6 @@ this.default_TranslateWebserverUi = this.default_TranslateWebserverUi || {};
       };
     _.B(FI, _.$d);
     FI.prototype.g = function (a) {
-      debugger;
       try {
         // console.log(this.V); // - /_/TranslateWebserverUi/data/
         // If request go to "/_/TranslateWebserverUi/data/" setting X-Goog-BatchExecute-Bgr header value
@@ -31650,6 +31649,7 @@ this.default_TranslateWebserverUi = this.default_TranslateWebserverUi || {};
           // console.log(b); // - [[["IjQUHc","[]",null,"generic"]]] or [[["MkEWBc","[[\"hi, how are you\",\"auto\",\"en\",1],[]]",null,"generic"]]] - f.req body value
           // Sooo, "this.j" function just checks rpcids query is it has in semantan_b file, check #s6d5f1
           if (b && this.j(a)) {
+            debugger;
             // "Se" definition  - #541fd
             var c = this.s.Se(b).then(
               function (d) {
