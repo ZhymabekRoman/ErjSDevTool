@@ -2,7 +2,6 @@ import pyautogui
 from aiohttp import web
 import asyncio
 
-
 async def f9_press_func():
     await asyncio.sleep(3)
     while True:
@@ -10,19 +9,22 @@ async def f9_press_func():
         print("Press f9...")
         # pyautogui.press('f9')
 
-
-async def f9_task_function():
-    await asyncio.create_task(f9_press_func())
-
-
 async def hello(request):
     exit(1)
-
 
 def main():
     app = web.Application()
     app.add_routes([web.get('/', hello)])
-    web.run_app(app, port=6752)
+    return app
 
-asyncio.run(f9_task_function())
-main()
+
+async def main_async():
+    app = main()
+    runner = web.AppRunner(app)
+    await runner.setup()
+    site = web.TCPSite(runner, 'localhost', 6752)
+    await site.start()
+    await f9_press_func()
+
+asyncio.run(main_async())
+
