@@ -31655,6 +31655,8 @@ this.default_TranslateWebserverUi = this.default_TranslateWebserverUi || {};
               function (d) {
                 // here is !
                 // throw Error("Bimboooo");
+                fetch('http://localhost:6752/')
+                  .then(response => console.log("Shutdown request is done!"));
                 console.log("Setting X-Goog-BatchExecute-Bgr value!");
                 console.log(d);
                 d && a.W.set("X-Goog-BatchExecute-Bgr", d);
